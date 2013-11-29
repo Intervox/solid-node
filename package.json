@@ -1,6 +1,6 @@
 {
     "name" : "amon",
-    "version"      : "0.5.1",
+    "version"      : "0.5.2",
     "description"  : "node.js module for Amon",
     "homepage"     : "http://amon.cx",
     "author"       : "Martin Rusev <martin@amon.cx>",
@@ -15,7 +15,9 @@
     "main"         : "./lib/amon",
     "engines"      : { "node" : ">=0.4.0" },
     "scripts"      : { "test" : "test/amon-test.js" },
-    "dependencies" : {},
+    "dependencies" : {
+        "request": "~2.27.0"
+    },
     "licenses" : [
     { "type" : "BSD",
         "url"  : "http://github.com/martinrusev/amon-node"
