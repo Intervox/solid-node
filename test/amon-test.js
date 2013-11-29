@@ -1,6 +1,3 @@
-// Nodeunit required for running the test suite
-// Install with npm install -g nodeunit
-// Run with nodeunit this file
 var assert = require('assert');
 var Amon = require('../lib/amon').Amon;
 

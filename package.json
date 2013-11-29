@@ -1,34 +1,41 @@
 {
-    "name" : "amon",
-    "version"      : "0.5.2",
-    "description"  : "node.js module for Amon",
-    "homepage"     : "http://amon.cx",
-    "author"       : "Martin Rusev <martin@amon.cx>",
-    "repository" : {
-        "type" : "git",
-        "url"  : "http://github.com/martinrusev/amon-node.git"
-    },
-    "bugs" : {
-        "url"  : "http://github.com/martinrusev/amon-node/issues",
-        "mail" : "martin@amon.cx"
-    },
-    "main"         : "./lib/amon",
-    "engines"      : { "node" : ">=0.4.0" },
-    "scripts"      : { "test" : "test/amon-test.js" },
-    "dependencies" : {
-        "request": "~2.27.0"
-    },
-    "licenses" : [
-    { "type" : "BSD",
-        "url"  : "http://github.com/martinrusev/amon-node"
+  "name": "amon",
+  "version": "0.5.2",
+  "scripts": {
+    "test": "./node_modules/nodeunit/bin/nodeunit ./test/amon-test.js"
+  },
+  "description": "node.js module for Amon",
+  "homepage": "http://amon.cx",
+  "author": "Martin Rusev <martin@amon.cx>",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/martinrusev/amon-node.git"
+  },
+  "bugs": {
+    "url": "http://github.com/martinrusev/amon-node/issues",
+    "mail": "martin@amon.cx"
+  },
+  "main": "./lib/amon",
+  "engines": {
+    "node": ">=0.4.0"
+  },
+  "dependencies": {
+    "request": "~2.27.0"
+  },
+  "licenses": [
+    {
+      "type": "BSD",
+      "url": "http://github.com/martinrusev/amon-node"
     }
-    ],
-        "contributors": [
-        {
-            "name": "Michael Heap",
-            "email": "m@michaelheap.com",
-            "web": "http://michaelheap.com"
-        }
-    ]
+  ],
+  "contributors": [
+    {
+      "name": "Michael Heap",
+      "email": "m@michaelheap.com",
+      "web": "http://michaelheap.com"
+    }
+  ],
+  "devDependencies": {
+    "nodeunit": "~0.8.2"
+  }
 }
-
