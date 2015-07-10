@@ -1,5 +1,5 @@
 {
-  "version": "0.5.2",
+  "version": "1.0.0",
   "name": "@ikt/amon",
   "scripts": {
     "test": "./node_modules/nodeunit/bin/nodeunit ./test/amon-test.js"
